@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66986EC21E051C960066CBCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66986EC11E051C960066CBCC /* AppDelegate.swift */; };
+		66986EC41E051C960066CBCC /* ContactsOverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66986EC31E051C960066CBCC /* ContactsOverviewController.swift */; };
+		66986EC71E051C960066CBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66986EC51E051C960066CBCC /* Main.storyboard */; };
+		66986EC91E051C960066CBCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66986EC81E051C960066CBCC /* Assets.xcassets */; };
+		66986ECC1E051C960066CBCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66986ECA1E051C960066CBCC /* LaunchScreen.storyboard */; };
+		66986ED71E051C960066CBCC /* KTContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66986ED61E051C960066CBCC /* KTContactsTests.swift */; };
+		66986EE21E051C960066CBCC /* KTContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66986EE11E051C960066CBCC /* KTContactsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66986ED31E051C960066CBCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66986EB61E051C930066CBCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66986EBD1E051C940066CBCC;
+			remoteInfo = KTContacts;
+		};
+		66986EDE1E051C960066CBCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66986EB61E051C930066CBCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66986EBD1E051C940066CBCC;
+			remoteInfo = KTContacts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66986EBE1E051C950066CBCC /* KTContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66986EC11E051C960066CBCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66986EC31E051C960066CBCC /* ContactsOverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsOverviewController.swift; sourceTree = "<group>"; };
+		66986EC61E051C960066CBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66986EC81E051C960066CBCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66986ECB1E051C960066CBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66986ECD1E051C960066CBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66986ED21E051C960066CBCC /* KTContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66986ED61E051C960066CBCC /* KTContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTContactsTests.swift; sourceTree = "<group>"; };
+		66986ED81E051C960066CBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66986EDD1E051C960066CBCC /* KTContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66986EE11E051C960066CBCC /* KTContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTContactsUITests.swift; sourceTree = "<group>"; };
+		66986EE31E051C960066CBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66986EBB1E051C940066CBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66986ECF1E051C960066CBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66986EDA1E051C960066CBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66986EB51E051C930066CBCC = {
+			isa = PBXGroup;
+			children = (
+				66986EC01E051C950066CBCC /* KTContacts */,
+				66986ED51E051C960066CBCC /* KTContactsTests */,
+				66986EE01E051C960066CBCC /* KTContactsUITests */,
+				66986EBF1E051C950066CBCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66986EBF1E051C950066CBCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66986EBE1E051C950066CBCC /* KTContacts.app */,
+				66986ED21E051C960066CBCC /* KTContactsTests.xctest */,
+				66986EDD1E051C960066CBCC /* KTContactsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66986EC01E051C950066CBCC /* KTContacts */ = {
+			isa = PBXGroup;
+			children = (
+				66986EC11E051C960066CBCC /* AppDelegate.swift */,
+				66986EC31E051C960066CBCC /* ContactsOverviewController.swift */,
+				66986EC51E051C960066CBCC /* Main.storyboard */,
+				66986EC81E051C960066CBCC /* Assets.xcassets */,
+				66986ECA1E051C960066CBCC /* LaunchScreen.storyboard */,
+				66986ECD1E051C960066CBCC /* Info.plist */,
+			);
+			path = KTContacts;
+			sourceTree = "<group>";
+		};
+		66986ED51E051C960066CBCC /* KTContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				66986ED61E051C960066CBCC /* KTContactsTests.swift */,
+				66986ED81E051C960066CBCC /* Info.plist */,
+			);
+			path = KTContactsTests;
+			sourceTree = "<group>";
+		};
+		66986EE01E051C960066CBCC /* KTContactsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66986EE11E051C960066CBCC /* KTContactsUITests.swift */,
+				66986EE31E051C960066CBCC /* Info.plist */,
+			);
+			path = KTContactsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66986EBD1E051C940066CBCC /* KTContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66986EE61E051C960066CBCC /* Build configuration list for PBXNativeTarget "KTContacts" */;
+			buildPhases = (
+				66986EBA1E051C940066CBCC /* Sources */,
+				66986EBB1E051C940066CBCC /* Frameworks */,
+				66986EBC1E051C940066CBCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTContacts;
+			productName = KTContacts;
+			productReference = 66986EBE1E051C950066CBCC /* KTContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66986ED11E051C960066CBCC /* KTContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66986EE91E051C960066CBCC /* Build configuration list for PBXNativeTarget "KTContactsTests" */;
+			buildPhases = (
+				66986ECE1E051C960066CBCC /* Sources */,
+				66986ECF1E051C960066CBCC /* Frameworks */,
+				66986ED01E051C960066CBCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66986ED41E051C960066CBCC /* PBXTargetDependency */,
+			);
+			name = KTContactsTests;
+			productName = KTContactsTests;
+			productReference = 66986ED21E051C960066CBCC /* KTContactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66986EDC1E051C960066CBCC /* KTContactsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66986EEC1E051C960066CBCC /* Build configuration list for PBXNativeTarget "KTContactsUITests" */;
+			buildPhases = (
+				66986ED91E051C960066CBCC /* Sources */,
+				66986EDA1E051C960066CBCC /* Frameworks */,
+				66986EDB1E051C960066CBCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66986EDF1E051C960066CBCC /* PBXTargetDependency */,
+			);
+			name = KTContactsUITests;
+			productName = KTContactsUITests;
+			productReference = 66986EDD1E051C960066CBCC /* KTContactsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66986EB61E051C930066CBCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Kartik Patel";
+				TargetAttributes = {
+					66986EBD1E051C940066CBCC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KP9ST78F2Z;
+						ProvisioningStyle = Automatic;
+					};
+					66986ED11E051C960066CBCC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KP9ST78F2Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66986EBD1E051C940066CBCC;
+					};
+					66986EDC1E051C960066CBCC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KP9ST78F2Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66986EBD1E051C940066CBCC;
+					};
+				};
+			};
+			buildConfigurationList = 66986EB91E051C930066CBCC /* Build configuration list for PBXProject "KTContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66986EB51E051C930066CBCC;
+			productRefGroup = 66986EBF1E051C950066CBCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66986EBD1E051C940066CBCC /* KTContacts */,
+				66986ED11E051C960066CBCC /* KTContactsTests */,
+				66986EDC1E051C960066CBCC /* KTContactsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66986EBC1E051C940066CBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66986ECC1E051C960066CBCC /* LaunchScreen.storyboard in Resources */,
+				66986EC91E051C960066CBCC /* Assets.xcassets in Resources */,
+				66986EC71E051C960066CBCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66986ED01E051C960066CBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66986EDB1E051C960066CBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66986EBA1E051C940066CBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66986EC41E051C960066CBCC /* ContactsOverviewController.swift in Sources */,
+				66986EC21E051C960066CBCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66986ECE1E051C960066CBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66986ED71E051C960066CBCC /* KTContactsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66986ED91E051C960066CBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66986EE21E051C960066CBCC /* KTContactsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66986ED41E051C960066CBCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66986EBD1E051C940066CBCC /* KTContacts */;
+			targetProxy = 66986ED31E051C960066CBCC /* PBXContainerItemProxy */;
+		};
+		66986EDF1E051C960066CBCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66986EBD1E051C940066CBCC /* KTContacts */;
+			targetProxy = 66986EDE1E051C960066CBCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66986EC51E051C960066CBCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66986EC61E051C960066CBCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66986ECA1E051C960066CBCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66986ECB1E051C960066CBCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66986EE41E051C960066CBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66986EE51E051C960066CBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66986EE71E051C960066CBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KP9ST78F2Z;
+				INFOPLIST_FILE = KTContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktpatel.KTContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		66986EE81E051C960066CBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KP9ST78F2Z;
+				INFOPLIST_FILE = KTContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktpatel.KTContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		66986EEA1E051C960066CBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KP9ST78F2Z;
+				INFOPLIST_FILE = KTContactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktpatel.KTContactsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTContacts.app/KTContacts";
+			};
+			name = Debug;
+		};
+		66986EEB1E051C960066CBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KP9ST78F2Z;
+				INFOPLIST_FILE = KTContactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktpatel.KTContactsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTContacts.app/KTContacts";
+			};
+			name = Release;
+		};
+		66986EED1E051C960066CBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KP9ST78F2Z;
+				INFOPLIST_FILE = KTContactsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktpatel.KTContactsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KTContacts;
+			};
+			name = Debug;
+		};
+		66986EEE1E051C960066CBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KP9ST78F2Z;
+				INFOPLIST_FILE = KTContactsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktpatel.KTContactsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KTContacts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66986EB91E051C930066CBCC /* Build configuration list for PBXProject "KTContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66986EE41E051C960066CBCC /* Debug */,
+				66986EE51E051C960066CBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66986EE61E051C960066CBCC /* Build configuration list for PBXNativeTarget "KTContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66986EE71E051C960066CBCC /* Debug */,
+				66986EE81E051C960066CBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66986EE91E051C960066CBCC /* Build configuration list for PBXNativeTarget "KTContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66986EEA1E051C960066CBCC /* Debug */,
+				66986EEB1E051C960066CBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66986EEC1E051C960066CBCC /* Build configuration list for PBXNativeTarget "KTContactsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66986EED1E051C960066CBCC /* Debug */,
+				66986EEE1E051C960066CBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66986EB61E051C930066CBCC /* Project object */;
+}
